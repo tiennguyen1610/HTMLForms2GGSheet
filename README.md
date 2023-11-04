@@ -1,4 +1,4 @@
 # HTMLForms2GGSheet
-Submit data from HTML form to Google Sheet
-Reference from article:
+Submit data from HTML form to Google Sheet<br/>
+Reference from article:<br/>
 https://dev.to/kromate/connecting-your-html-forms-to-a-google-spreadsheet-p9h

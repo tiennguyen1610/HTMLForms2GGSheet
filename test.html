@@ -7,14 +7,16 @@
 </head>
 <body>
     <form id="form">
-            <input name="Name" type="text" placeholder="Name" required>
-            <input name="Message" type="text" placeholder="Message" required>
-            <button type="submit" id="submit">Send</button>
+      <input name="Name" type="text" placeholder="Name" required>
+      <input name="Message" type="text" placeholder="Message" required>
+      <button type="submit" id="submit">Send</button>
     </form>
     <script>
         const form = document.querySelector("#form");
         const submitButton = document.querySelector("#submit");
+        //Get URL from Google Sheet
         const scriptURL = 'https://script.google.com/macros/s/AKfycbzbXVJinOwygUu-i22sX81FuSF70QH2fLKC9mb7u-PmfZXi1Yd0DIEHs73kOPYIxCZOkw/exec';
+
         form.addEventListener('submit', e => {
           submitButton.disabled = true
           e.preventDefault()
